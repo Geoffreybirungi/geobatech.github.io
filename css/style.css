@@ -477,18 +477,13 @@ body{
     font-size: 2rem;
 }
 
-/* .testimonials {
-    position: relative;
-    padding: 90px 0 60px 0;
-    background: #f2f2f2;
-} */
-
 
 
 .testimonials {
     position: relative;
     padding: 90px 0 60px 0;
     background: #f2f2f2;
+    border-radius: 15px;
 }
 
 .testimonials .testimonial-item {
@@ -496,29 +491,14 @@ body{
     margin: 0 10px 20px 10px;
     background: #ffffff;
   
-    height: 500px; /* Set a fixed height */
-    border-radius: 8px; /* Optional: Add rounded corners */
-    overflow: hidden; /* Ensure content does not overflow */
-    justify-content: space-between; /* Space items evenly */
 } 
 
 
-
-/* .testimonials .testimonial-img {
+ .testimonials .testimonial-img {
     position: relative;
     background: #000000;
     overflow: hidden;
-} */
-
-.testimonials .testimonial-img {
-    position: relative;
-    background: rgb(251, 72, 6);
-    overflow: hidden;
-    width: 100%; /* Set a specific width if needed */
-    height: 190px; /* Set a fixed height */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-}
+} 
 
 .testimonials .testimonial-img img {
     width: 100%; /* Make the image responsive */
